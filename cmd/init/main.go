@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 
-	"github.com/plasma-umass/systemgo/config"
-	"github.com/plasma-umass/systemgo/system"
-	"github.com/plasma-umass/systemgo/systemctl"
+	"systemgo/config"
+	"systemgo/system"
+	"systemgo/systemctl"
 )
 
 // Initializes the system, sets the default paths, as specified in configuration and attempts to start the default target, falls back to "rescue.target", if it fails

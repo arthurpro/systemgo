@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/plasma-umass/systemgo/system"
+	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
+	"systemgo/system"
 )
 
 const (

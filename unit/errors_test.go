@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/plasma-umass/systemgo/unit"
 	"github.com/stretchr/testify/assert"
+	"systemgo/unit"
 )
 
 var ErrTest = errors.New("test")

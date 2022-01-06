@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/plasma-umass/systemgo/test/mock_unit"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"systemgo/test/mock_unit"
 )
 
 var deps = struct {

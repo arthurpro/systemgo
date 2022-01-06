@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 // Maximum number of bytes kept if log buffer

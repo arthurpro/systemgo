@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/plasma-umass/systemgo/unit"
-	"github.com/plasma-umass/systemgo/unit/service"
+	"systemgo/unit"
+	"systemgo/unit/service"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 // Default paths to search for unit paths - Daemon uses those, if none are specified

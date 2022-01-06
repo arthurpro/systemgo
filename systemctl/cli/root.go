@@ -25,10 +25,10 @@ import (
 	"net/rpc"
 	"os"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 
-	"github.com/plasma-umass/systemgo/config"
 	"github.com/spf13/cobra"
+	"systemgo/config"
 )
 
 var client *rpc.Client

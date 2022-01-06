@@ -23,11 +23,11 @@ package cli
 import (
 	"fmt"
 
-	"github.com/plasma-umass/systemgo/systemctl"
-	"github.com/plasma-umass/systemgo/unit"
 	"github.com/spf13/cobra"
+	"systemgo/systemctl"
+	"systemgo/unit"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 // statusCmd represents the status command

@@ -3,7 +3,7 @@ package system
 import (
 	"sync"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 const job_type_count = 4

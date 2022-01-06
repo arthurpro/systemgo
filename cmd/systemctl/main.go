@@ -20,7 +20,7 @@
 
 package main
 
-import "github.com/plasma-umass/systemgo/systemctl/cli"
+import "systemgo/systemctl/cli"
 
 func main() {
 	cli.Execute()

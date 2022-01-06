@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/plasma-umass/systemgo/test/mock_unit"
-	"github.com/plasma-umass/systemgo/unit"
 	"github.com/stretchr/testify/assert"
+	"systemgo/test/mock_unit"
+	"systemgo/unit"
 )
 
 func TestTargetActive(t *testing.T) {

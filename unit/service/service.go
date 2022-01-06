@@ -6,9 +6,9 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/plasma-umass/systemgo/unit"
+	"systemgo/unit"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 const DEFAULT_TYPE = "simple"

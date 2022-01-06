@@ -25,10 +25,10 @@ import (
 	"os"
 	"text/tabwriter"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/plasma-umass/systemgo/systemctl"
-	"github.com/plasma-umass/systemgo/unit"
+	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
+	"systemgo/systemctl"
+	"systemgo/unit"
 )
 
 // list-unitsCmd represents the list-units command

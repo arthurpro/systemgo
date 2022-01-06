@@ -3,7 +3,7 @@ package system
 import (
 	"io"
 
-	"github.com/plasma-umass/systemgo/unit"
+	"systemgo/unit"
 )
 
 const (

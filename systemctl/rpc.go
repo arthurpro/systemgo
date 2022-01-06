@@ -4,7 +4,7 @@ import (
 	"encoding/gob"
 	"fmt"
 
-	"github.com/plasma-umass/systemgo/unit"
+	"systemgo/unit"
 )
 
 type Response struct {

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/plasma-umass/systemgo/unit"
 	"github.com/stretchr/testify/assert"
+	"systemgo/unit"
 )
 
 func TestDefine(t *testing.T) {
